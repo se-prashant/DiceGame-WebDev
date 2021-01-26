@@ -10,7 +10,7 @@ function role(){
   document.querySelector("img.img2").src = "images/dice"+ randomNumber2+".png"
 
   if(randomNumber1>randomNumber2){
-    result =  player1Name+ "  Wins!";
+    result = "🏁"+ player1Name+ "  Wins!";
     score1++;
   }
   else if(randomNumber1<randomNumber2){
