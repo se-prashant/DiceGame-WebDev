@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Dicee</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Satisfy&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Indie+Flower|Lobster" rel="stylesheet">
+  </head>
+  <body>
+
+    <div class="container">
+      <h1>Let's Play</h1>
+      <div class = "button-container">
+        <button type = "button" onclick="editName()">Edit Names</button>
+      </div>
+      <div class="dice">
+        <p class="names">Player 1</p>
+        <p id="score1">Score:</p>
+        <img class="img1" src="images/dice6.png">
+      </div>
+
+      <div class="dice">
+        <p class="names">Player 2</p>
+        <p id = "score2">Score:</p>
+
+        <img class="img2" src="images/dice6.png">
+      </div>
+      <div class = "button-container">
+      <button type="button" onclick="role()">Role The Dice</button>
+      </div>
+      <div class = "button-container">
+        <button type="button" onclick="resetGame()">Reset Game</button>
+      </div>
+    </div>
+
+  <script src="index.js" charset="utf-8"></script>
+  </body>
+
+  <footer>
+    www 🎲 se-prashant 🎲 com
+  </footer>
+</html>
